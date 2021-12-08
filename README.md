@@ -27,11 +27,3 @@ DB_CONNECTION=mysql<br/>
  DB_DATABASE=homestead<br/>
  DB_USERNAME=homestead<br/>
  DB_PASSWORD=secret</i>
-
-<h3>With this</h3>
-<i>DB_CONNECTION=sqlite</i>
-
-Now go to database folder and create a new file named <b>database.sqlite</b> (see the extension, it should be .sqlite not .txt)
-
-Now atlast, run => <b>php artisan migrate</b>
-
